@@ -98,7 +98,6 @@ o.datatype = "port"
 math.randomseed(tostring(os.time()):reverse():sub(1, 7))
 o.default = math.random(10240, 20480)
 o.rmempty = false
-o.description = translate("warning! Please do not reuse the port!")
 
 o = s:option(Value, "timeout", translate("Connection Timeout"))
 o.datatype = "uinteger"
