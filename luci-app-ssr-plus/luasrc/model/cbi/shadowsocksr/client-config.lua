@@ -174,8 +174,6 @@ if is_finded("redsocks2") then
 	o:value("tun", translate("Network Tunnel"))
 end
 
-o.description = translate("Using incorrect encryption mothod may causes service fail to start")
-
 o = s:option(Value, "alias", translate("Alias(optional)"))
 
 o = s:option(ListValue, "iface", translate("Network interface to use"))
@@ -185,7 +183,6 @@ for _, e in ipairs(luci.sys.net.devices()) do
 	end
 end
 o:depends("type", "tun")
-o.description = translate("Redirect traffic to this network interface")
 
 o = s:option(ListValue, "v2ray_protocol", translate("V2Ray/XRay protocol"))
 o:value("vless", translate("VLESS"))
@@ -269,7 +266,6 @@ o:depends("type", "ss")
 o:depends({type = "v2ray", v2ray_protocol = "shadowsocks"})
 
 o = s:option(Flag, "uot", translate("UDP over TCP"))
-o.description = translate("Enable the SUoT protocol, requires server support.")
 o.rmempty = true
 o:depends({type = "v2ray", v2ray_protocol = "shadowsocks"})
 o.default = "0"
@@ -413,7 +409,6 @@ o.datatype = "uinteger"
 o.default = "30"
 
 o = s:option(Value, "keepaliveperiod", translate("The keep-alive period.(Unit:second)"))
-o.description = translate("Default value 0 indicatesno heartbeat.")
 o:depends({type = "hysteria", flag_quicparam = "1"})
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.rmempty = true
@@ -568,7 +563,6 @@ o.rmempty = true
 
 -- Tuic settings for the local inbound socks5 server
 o = s:option(Flag, "tuic_dual_stack", translate("Dual-stack Listening Socket"))
-o.description = translate("If this option is not set, the socket behavior is platform dependent.")
 o:depends("type", "tuic")
 o.default = "0"
 o.rmempty = true
@@ -734,16 +728,11 @@ o:depends("transport", "xhttp")
 o.rmempty = true
 
 o = s:option(Flag, "enable_xhttp_extra", translate("XHTTP Extra"))
-o.description = translate("Enable this option to configure XHTTP Extra (JSON format).")
 o.rmempty = true
 o.default = "0"
 o:depends("transport", "xhttp")
 
 o = s:option(TextValue, "xhttp_extra", " ")
-o.description = translate(
-    "<font><b>" .. translate("Configure XHTTP Extra Settings (JSON format), see:") .. "</b></font>" ..
-    " <a href='https://xtls.github.io/config/transports/splithttp.html#extra' target='_blank'>" ..
-    "<font style='color:green'><b>" .. translate("Click to the page") .. "</b></font></a>")
 o:depends("enable_xhttp_extra", true)
 o.rmempty = true
 o.rows = 10
@@ -921,7 +910,6 @@ o.rmempty = true
 
 -- [[ WireGuard 部分 ]]--
 o = s:option(Flag, "kernelmode", translate("Enabled Kernel virtual NIC TUN(optional)"))
-o.description = translate("Virtual NIC TUN of Linux kernel can be used only when system supports and have root permission. If used, IPv6 routing table 1023 is occupied.")
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.default = "0"
 o.rmempty = true
@@ -932,7 +920,6 @@ o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.rmempty = true
 
 o = s:option(DynamicList, "reserved", translate("Reserved bytes(optional)"))
-o.description = translate("Wireguard reserved bytes.")
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.rmempty = true
 
@@ -951,7 +938,6 @@ o.password = true
 o.rmempty = true
 
 o = s:option(DynamicList, "allowedips", translate("allowedIPs(optional)"))
-o.description = translate("Wireguard allows only traffic from specific source IP.")
 o.datatype = "cidr"
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.default = "0.0.0.0/0"
@@ -1056,7 +1042,6 @@ o = s:option(Flag, "insecure", translate("allowInsecure"))
 o.rmempty = false
 o:depends("tls", true)
 o:depends("type", "hysteria")
-o.description = translate("If true, allowss insecure connection at TLS client, e.g., TLS server uses unverifiable certificates.")
 
 -- [[ Hysteria2 TLS pinSHA256 ]] --
 o = s:option(Value, "pinsha256", translate("Certificate fingerprint"))
@@ -1102,11 +1087,6 @@ o:depends("mux", true)
 
 -- [[ UDP 最大并发连接数 ]]--
 o = s:option(Value, "xudpConcurrency", translate("xudpConcurrency"))
-o.description = translate(
-		"<ul>"
-		.. "<li>" .. translate("Default:16. When entering a negative number, such as -1, The Mux module will not be used to carry UDP traffic, Use original UDP transmission method of proxy protocol.") .. "</li>"
-		.. "<li>" .. translate("Min value is 1, Max value is 1024. When omitted or set to 0, Will same path as TCP traffic.") .. "</li>"
-		.. "</ul>")
 o.rmempty = true
 o.default = "16"
 o:value("-1", translate("disable"))
@@ -1116,12 +1096,6 @@ o:depends("xmux", true)
 
 -- [[ 对被代理的 UDP/443 流量处理方式 ]]--
 o = s:option(ListValue, "xudpProxyUDP443", translate("xudpProxyUDP443"))
-o.description = translate(
-		"<ul>"
-		.. "<li>" .. translate("Default reject rejects traffic.") .. "</li>"
-		.. "<li>" .. translate("allow: Allows use Mux connection.") .. "</li>"
-		.. "<li>" .. translate("skip: Not use Mux module to carry UDP 443 traffic, Use original UDP transmission method of proxy protocol.") .. "</li>"
-		.. "</ul>")
 o.rmempty = true
 o.default = "reject"
 o:value("reject", translate("reject"))
@@ -1210,7 +1184,6 @@ end
 o = s:option(Value, "certpath", translate("Current Certificate Path"))
 o:depends("certificate", 1)
 o:value("/etc/ssl/private/ca.pem")
-o.description = translate("Please confirm the current certificate path")
 o.default = "/etc/ssl/private/ca.pem"
 
 o = s:option(Flag, "fast_open", translate("TCP Fast Open"), translate("Enabling TCP Fast Open Requires Server Support."))
