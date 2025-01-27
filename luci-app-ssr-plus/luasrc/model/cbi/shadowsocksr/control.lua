@@ -15,7 +15,6 @@ o.template = "cbi/network_netlist"
 o.widget = "checkbox"
 o.nocreate = true
 o.unspecified = true
-o.description = translate("Listen only on the given interface or, if unspecified, on all")
 
 -- Part of WAN
 s:tab("wan_ac", translate("WAN IP AC"))
