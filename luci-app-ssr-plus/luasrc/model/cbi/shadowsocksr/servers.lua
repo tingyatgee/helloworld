@@ -17,7 +17,6 @@ s.anonymous = true
 
 o = s:option(Flag, "auto_update", translate("Auto Update"))
 o.rmempty = false
-o.description = translate("Auto Update Server subscription, GFW list and CHN route")
 
 o = s:option(ListValue, "auto_update_week_time", translate("Update Time (Every Week)"))
 o:value('*', translate("Every Day"))
@@ -53,15 +52,12 @@ o.rmempty = true
 
 o = s:option(Value, "filter_words", translate("Subscribe Filter Words"))
 o.rmempty = true
-o.description = translate("Filter Words splited by /")
 
 o = s:option(Value, "save_words", translate("Subscribe Save Words"))
 o.rmempty = true
-o.description = translate("Save Words splited by /")
 
 o = s:option(Button, "update_Sub", translate("Update Subscribe List"))
 o.inputstyle = "reload"
-o.description = translate("Update subscribe url list first")
 o.write = function()
 	uci:commit("shadowsocksr")
 	luci.http.redirect(luci.dispatcher.build_url("admin", "services", "shadowsocksr", "servers"))
@@ -69,12 +65,10 @@ end
 
 o = s:option(Flag, "switch", translate("Subscribe Default Auto-Switch"))
 o.rmempty = false
-o.description = translate("Subscribe new add server default Auto-Switch on")
 o.default = "1"
 
 o = s:option(Flag, "proxy", translate("Through proxy update"))
 o.rmempty = false
-o.description = translate("Through proxy update list, Not Recommended ")
 
 o = s:option(Button, "subscribe", translate("Update All Subscribe Servers"))
 o.rawhtml = true
