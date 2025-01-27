@@ -72,7 +72,6 @@ o = s:option(Value, "nfip_url", translate("nfip_url"))
 o:value("https://fastly.jsdelivr.net/gh/QiuSimons/Netflix_IP/NF_only.txt", translate("Netflix IP Only"))
 o:value("https://fastly.jsdelivr.net/gh/QiuSimons/Netflix_IP/getflix.txt", translate("Netflix and AWS"))
 o.default = "https://fastly.jsdelivr.net/gh/QiuSimons/Netflix_IP/NF_only.txt"
-o.description = translate("Customize Netflix IP Url")
 o:depends("netflix_enable", "1")
 
 o = s:option(ListValue, "shunt_dns_mode", translate("DNS Query Mode For Shunt Mode"))
@@ -96,7 +95,6 @@ o:value("4.2.2.3:53", translate("Level 3 Public DNS (4.2.2.3)"))
 o:value("4.2.2.4:53", translate("Level 3 Public DNS (4.2.2.4)"))
 o:value("1.1.1.1:53", translate("Cloudflare DNS (1.1.1.1)"))
 o:depends("shunt_dns_mode", "1")
-o.description = translate("Custom DNS Server format as IP:PORT (default: 8.8.4.4:53)")
 o.datatype = "ip4addrport"
 
 o = s:option(ListValue, "shunt_mosdns_dnsserver", translate("Anti-pollution DNS Server"))
@@ -107,7 +105,6 @@ o:value("tcp://4.2.2.1:53,tcp://4.2.2.2:53", translate("Level 3 Public DNS-2 (4.
 o:value("tcp://4.2.2.3:53,tcp://4.2.2.4:53", translate("Level 3 Public DNS-3 (4.2.2.3-4)"))
 o:value("tcp://1.1.1.1:53,tcp://1.0.0.1:53", translate("Cloudflare DNS"))
 o:depends("shunt_dns_mode", "2")
-o.description = translate("Custom DNS Server for mosdns")
 
 o = s:option(Flag, "shunt_mosdns_ipv6", translate("Disable IPv6 In MOSDNS Query Mode (Shunt Mode)"))
 o:depends("shunt_dns_mode", "2")
@@ -138,7 +135,6 @@ o:value("https://raw.githubusercontent.com/neodevpro/neodevhost/master/dnsmasq.c
 o:value("https://anti-ad.net/anti-ad-for-dnsmasq.conf", translate("anti-AD"))
 o.default = "https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_dnsmasq.conf"
 o:depends("adblock", "1")
-o.description = translate("Support AdGuardHome and DNSMASQ format list")
 
 o = s:option(Button, "Reset", translate("Reset to defaults"))
 o.inputstyle = "reload"
