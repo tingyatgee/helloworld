@@ -1074,11 +1074,6 @@ o:depends({type = "v2ray", v2ray_protocol = "vless", transport = "xhttp"})
 
 -- [[ TCP 最大并发连接数 ]]--
 o = s:option(Value, "concurrency", translate("concurrency"))
-o.description = translate(
-		"<ul>"
-		.. "<li>" .. translate("Default: disable. When entering a negative number, such as -1, The Mux module will not be used to carry TCP traffic.") .. "</li>"
-		.. "<li>" .. translate("Min value is 1, Max value is 128. When omitted or set to 0, it equals 8.") .. "</li>"
-		.. "</ul>")
 o.rmempty = true
 o.default = "-1"
 o:value("-1", translate("disable"))
@@ -1145,7 +1140,6 @@ o:depends({type = "hysteria", insecure = false})
 o:depends({type = "trojan", tls = true, insecure = false})
 o:depends({type = "v2ray", v2ray_protocol = "vmess", tls = true, insecure = false})
 o:depends({type = "v2ray", v2ray_protocol = "vless", tls = true, insecure = false})
-o.description = translate("If you have a self-signed certificate,please check the box")
 
 o = s:option(DummyValue, "upload", translate("Upload"))
 o.template = "shadowsocksr/certupload"
