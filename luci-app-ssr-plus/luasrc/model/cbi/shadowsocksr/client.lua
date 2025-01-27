@@ -60,7 +60,6 @@ o.rmempty = false
 
 o = s:option(Flag, "netflix_proxy", translate("External Proxy Mode"))
 o.rmempty = false
-o.description = translate("Forward Netflix Proxy through Main Proxy")
 o.default = "0"
 end
 
@@ -118,7 +117,6 @@ o:value("114.114.114.114:53", translate("Oversea Mode DNS-1 (114.114.114.114)"))
 o:value("114.114.115.115:53", translate("Oversea Mode DNS-2 (114.114.115.115)"))
 o:depends("pdnsd_enable", "1")
 o:depends("pdnsd_enable", "2")
-o.description = translate("Custom DNS Server format as IP:PORT (default: 8.8.4.4:53)")
 o.datatype = "ip4addrport"
 
 o = s:option(ListValue, "tunnel_forward_mosdns", translate("Anti-pollution DNS Server"))
@@ -129,7 +127,6 @@ o:value("tcp://4.2.2.1:53,tcp://4.2.2.2:53", translate("Level 3 Public DNS-2 (4.
 o:value("tcp://4.2.2.3:53,tcp://4.2.2.4:53", translate("Level 3 Public DNS-3 (4.2.2.3-4)"))
 o:value("tcp://1.1.1.1:53,tcp://1.0.0.1:53", translate("Cloudflare DNS"))
 o:depends("pdnsd_enable", "3")
-o.description = translate("Custom DNS Server for mosdns")
 
 o = s:option(Flag, "mosdns_ipv6", translate("Disable IPv6 in MOSDNS query mode"))
 o:depends("pdnsd_enable", "3")
@@ -150,7 +147,6 @@ if is_finded("chinadns-ng") then
 	o:value("1.2.4.8:53", translate("CNNIC SDNS (1.2.4.8)"))
 	o:depends({pdnsd_enable = "1", run_mode = "router"})
 	o:depends({pdnsd_enable = "2", run_mode = "router"})
-	o.description = translate("Custom DNS Server format as IP:PORT (default: disabled)")
 	o.validate = function(self, value, section)
 		if (section and value) then
 			if value == "wan" or value == "wan_114" then
