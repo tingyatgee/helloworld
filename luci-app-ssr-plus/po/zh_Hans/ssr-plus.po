@@ -61,9 +61,6 @@ msgstr "密码"
 msgid "Encrypt Method"
 msgstr "加密方式"
 
-msgid "Enable the SUoT protocol, requires server support."
-msgstr "启用 SUoT 协议，需要服务端支持。"
-
 msgid "Bloom Filter"
 msgstr "布隆过滤器"
 
@@ -74,7 +71,7 @@ msgid "Socks Version"
 msgstr "Socks 版本"
 
 msgid "Flow"
-msgstr "流控（Flow）"
+msgstr "流控"
 
 msgid "Transport"
 msgstr "传输协议"
@@ -97,48 +94,20 @@ msgstr "启用 Mux.Cool"
 msgid "Enable Xudp Mux"
 msgstr "启用 Xudp Mux"
 
-msgid "Enable Multipath TCP, need to be enabled in both server and client configuration."
-msgstr "启用 Multipath TCP，需在服务端和客户端配置中同时启用。"
-
 msgid "concurrency"
 msgstr "TCP 最大并发连接数"
-
-msgid "Default: disable. When entering a negative number, such as -1, The Mux module will not be used to carry TCP traffic."
-msgstr "默认：禁用。填负数时，如 -1，不使用 Mux 模块承载 TCP 流量。"
-
-msgid "Min value is 1, Max value is 128. When omitted or set to 0, it equals 8."
-msgstr "最小值 1，最大值 128。省略或者填 0 时都等于 8。"
 
 msgid "xudpConcurrency"
 msgstr "UDP 最大并发连接数"
 
-msgid "Default:16. When entering a negative number, such as -1, The Mux module will not be used to carry UDP traffic, Use original UDP transmission method of proxy protocol."
-msgstr "默认值：16。填负数时，如 -1，不使用 Mux 模块承载 UDP 流量。将使用代理协议原本的 UDP 传输方式。"
-
-msgid "Min value is 1, Max value is 1024. When omitted or set to 0, Will same path as TCP traffic."
-msgstr "最小值 1，最大值 1024。 省略或者填 0 时，将与 TCP 流量走同一条路，也就是传统的行为。"
-
 msgid "xudpProxyUDP443"
 msgstr "对被代理的 UDP/443 流量处理方式"
-
-msgid "Default reject rejects traffic."
-msgstr "默认 reject 拒绝流量。"
-
-msgid "allow: Allows use Mux connection."
-msgstr "allow：允许走 Mux 连接。"
-
-msgid "skip: Not use Mux module to carry UDP 443 traffic, Use original UDP transmission method of proxy protocol."
-msgstr "skip：不使用 Mux 模块承载 UDP 443 流量，将使用代理协议原本的 UDP 传输方式。"
 
 msgid "custom_tcpcongestion"
 msgstr "连接服务器节点的 TCP 拥塞控制算法"
 
 msgid "comment_tcpcongestion_disable"
 msgstr "系统默认值"
-
-
-msgid "If true, allowss insecure connection at TLS client, e.g., TLS server uses unverifiable certificates."
-msgstr "是否允许不安全连接。当选择时，将不会检查远端主机所提供的 TLS 证书的有效性。"
 
 msgid "Protocol param (optional)"
 msgstr "传输协议参数（可选）"
@@ -154,9 +123,6 @@ msgstr "验证类型"
 
 msgid "Users Authentication"
 msgstr "用户验证"
-
-msgid "NOTE: If the server uses the userpass authentication, the format must be username:password."
-msgstr "注意： 如果服务器使用 userpass 验证，格式必须是 username:password。"
 
 msgid "Enable Port Hopping"
 msgstr "启用端口跃迁"
@@ -203,18 +169,17 @@ msgstr "QUIC 最长空闲超时时间（单位：秒）"
 msgid "The keep-alive period.(Unit:second)"
 msgstr "心跳包发送间隔（单位：秒）"
 
-
 msgid "Certificate fingerprint"
 msgstr "证书指纹"
 
 msgid "shadowTLS protocol Version"
-msgstr "ShadowTLS协议版本"
+msgstr "ShadowTLS 协议版本"
 
 msgid "TLS 1.3 Strict mode"
 msgstr "TLS 1.3 限定模式"
 
 msgid "Disable TCP No_delay"
-msgstr "禁用TCP无延迟"
+msgstr "禁用 TCP 无延迟"
 
 msgid "shadow-TLS SNI"
 msgstr "服务器名称指示"
@@ -226,10 +191,10 @@ msgid "Shadowsocks-rust Version"
 msgstr "shadowsocks rust 版本"
 
 msgid "Vmess Protocol"
-msgstr "VMESS协议"
+msgstr "VMESS 协议"
 
 msgid "Shadowsocks password"
-msgstr "shadowsocks密码"
+msgstr "shadowsocks 密码"
 
 msgid "QUIC connection receive window"
 msgstr "QUIC 连接接收窗口"
@@ -244,13 +209,13 @@ msgid "Disable QUIC path MTU discovery"
 msgstr "禁用 QUIC 启用 MTU 探测"
 
 msgid "Enable Tunnel(DNS)"
-msgstr "启用隧道（DNS）转发"
+msgstr "启用隧道转发"
 
 msgid "Tunnel Port"
-msgstr "隧道（DNS）本地端口"
+msgstr "隧道本地端口"
 
 msgid "Forwarding Tunnel"
-msgstr "隧道（DNS）转发地址"
+msgstr "隧道转发地址"
 
 msgid "Access Control"
 msgstr "访问控制"
@@ -306,18 +271,6 @@ msgstr "启动服务端"
 msgid "Server Setting"
 msgstr "服务端配置"
 
-msgid "KcpTun Enable"
-msgstr "KcpTun 启用"
-
-msgid "KcpTun Port"
-msgstr "KcpTun 端口"
-
-msgid "KcpTun Param"
-msgstr "KcpTun 参数"
-
-msgid "KcpTun Password"
-msgstr "KcpTun 密码"
-
 msgid "Enable Process Monitor"
 msgstr "启用进程监控"
 
@@ -332,9 +285,6 @@ msgstr "服务器"
 
 msgid "TCP Fast Open"
 msgstr "TCP 快速打开"
-
-msgid "Enabling TCP Fast Open Requires Server Support."
-msgstr "启用 TCP 快速打开需要服务端支持。"
 
 msgid "Status"
 msgstr "状态"
@@ -356,9 +306,6 @@ msgstr "DNS 隧道"
 
 msgid "IPK Version"
 msgstr "IPK 版本号"
-
-msgid "KcpTun Version"
-msgstr "KcpTun 版本号"
 
 msgid "Not exist"
 msgstr "未安装可执行文件"
@@ -501,9 +448,6 @@ msgstr "切换检查重试次数"
 msgid "Apple domains optimization"
 msgstr "Apple 域名解析优化"
 
-msgid "For Apple domains equipped with Chinese mainland CDN, always responsive to Chinese CDN IP addresses"
-msgstr "配备中国大陆 CDN 的 Apple 域名，始终应答中国大陆 CDN 地址"
-
 msgid "Enable adblock"
 msgstr "启用广告屏蔽"
 
@@ -516,9 +460,6 @@ msgstr "Apple 域名更新 URL"
 msgid "Apple Domains DNS"
 msgstr "Apple 域名 DNS"
 
-msgid "If empty, Not change Apple domains parsing DNS (Default is empty)"
-msgstr "如果为空，则不更改 Apple 域名解析 DNS（默认为空）"
-
 msgid "gfwlist Update url"
 msgstr "GFW 列表更新 URL"
 
@@ -527,9 +468,6 @@ msgstr "中国大陆 IP 段更新 URL"
 
 msgid "nfip_url"
 msgstr "Netflix IP 段更新 URL"
-
-msgid "Customize Netflix IP Url"
-msgstr "自定义 Netflix IP 段更新 URL（默认项目地址：https://github.com/QiuSimons/Netflix_IP）"
 
 msgid "Enable Process Deamon"
 msgstr "启用进程自动守护"
@@ -547,7 +485,7 @@ msgid "DNS Anti-pollution"
 msgstr "DNS 防污染服务"
 
 msgid "Use Other DNS Tunnel(Need to install)"
-msgstr "使用其他 DNS 转发（需要自己安装）"
+msgstr "使用其他 DNS 转发"
 
 msgid "Import"
 msgstr "导入配置信息"
@@ -597,9 +535,6 @@ msgstr "主服务器"
 msgid "Anti-pollution DNS Server"
 msgstr "访问国外域名 DNS 服务器"
 
-msgid "Custom DNS Server format as IP:PORT (default: 8.8.4.4:53)"
-msgstr "格式为 IP:Port（默认：8.8.4.4:53）"
-
 msgid "Use DNS2TCP query"
 msgstr "使用 DNS2TCP 查询"
 
@@ -607,7 +542,7 @@ msgid "Use DNS2SOCKS query and cache"
 msgstr "使用 DNS2SOCKS 查询并缓存"
 
 msgid "Use MOSDNS query (Not Support Oversea Mode)"
-msgstr "使用 MOSDNS 查询 (不支持海外用户回国模式)"
+msgstr "使用 MOSDNS 查询"
 
 msgid "Disable IPv6 in MOSDNS query mode"
 msgstr "禁止 MOSDNS 返回 IPv6 记录"
@@ -625,7 +560,7 @@ msgid "Custom DNS Server for mosdns"
 msgstr "MOSDNS 自定义 DNS 服务器"
 
 msgid "Disable IPv6 In MOSDNS Query Mode (Shunt Mode)"
-msgstr "禁止 MOSDNS 返回 IPv6 记录 (分流模式)"
+msgstr "禁止 MOSDNS 返回 IPv6 记录"
 
 msgid "DNS Server IP:Port"
 msgstr "DNS 服务器 IP:Port"
@@ -637,10 +572,7 @@ msgid "Use DNS from WAN"
 msgstr "使用 WAN 下发的 DNS"
 
 msgid "Use DNS from WAN and 114DNS"
-msgstr "使用 WAN 下发的 DNS 和 114DNS"
-
-msgid "Custom DNS Server format as IP:PORT (default: disabled)"
-msgstr "格式为 IP:PORT（默认：禁用）"
+msgstr "使用 WAN 下发的 DNS 和 114 DNS"
 
 msgid "Update time (every day)"
 msgstr "更新时间（每天）"
@@ -686,12 +618,6 @@ msgstr "订阅节点关键字过滤"
 
 msgid "Subscribe Save Words"
 msgstr "订阅节点关键字保留检查"
-
-msgid "Filter Words splited by /"
-msgstr "命中关键字的节点将被丢弃。多个关键字用 / 分隔"
-
-msgid "Save Words splited by /"
-msgstr "命中关键字的节点将被保留。多个关键字用 / 分隔。此项为空则不启用保留匹配"
 
 msgid "Update"
 msgstr "更新"
@@ -756,9 +682,6 @@ msgstr "游戏模式 UDP 中继"
 msgid "Server failsafe auto swith and custom update settings"
 msgstr "服务器节点故障自动切换/广告屏蔽/中国大陆 IP 段数据库更新设置"
 
-msgid "Support AdGuardHome and DNSMASQ format list"
-msgstr "同时支持 AdGuard Home 和 DNSMASQ 格式的过滤列表"
-
 msgid "Delete All Subscribe Servers"
 msgstr "删除所有订阅服务器节点"
 
@@ -770,9 +693,6 @@ msgstr "使用本机端口为 5335 的 DNS 服务"
 
 msgid "Server Node Type"
 msgstr "服务器节点类型"
-
-msgid "Using incorrect encryption mothod may causes service fail to start"
-msgstr "输入不正确的参数组合可能会导致服务无法启动"
 
 msgid "Game Mode Host List"
 msgstr "增强游戏模式客户端 LAN IP"
@@ -811,10 +731,10 @@ msgid "Proxy Ports"
 msgstr "需要代理的端口"
 
 msgid "All Ports"
-msgstr "所有端口（默认）"
+msgstr "所有端口"
 
 msgid "Only Common Ports"
-msgstr "仅常用端口（不走 P2P 流量到代理）"
+msgstr "仅常用端口"
 
 msgid "Custom Ports"
 msgstr "自定义端口"
@@ -837,9 +757,6 @@ msgstr "强制走代理的域名"
 msgid "Update Subscribe List"
 msgstr "更新订阅 URL 列表"
 
-msgid "Update subscribe url list first"
-msgstr "修改订阅 URL 和节点关键字后，请先点击更新"
-
 msgid "Update All Subscribe Servers"
 msgstr "更新所有订阅服务器节点"
 
@@ -851,9 +768,6 @@ msgstr "插件参数"
 
 msgid "Self-signed Certificate"
 msgstr "自签证书"
-
-msgid "If you have a self-signed certificate,please check the box"
-msgstr "如果你使用自签证书，请选择"
 
 msgid "upload"
 msgstr "上传"
@@ -909,9 +823,6 @@ msgstr "Netflix 分流IP列表"
 msgid "External Proxy Mode"
 msgstr "分流服务器（前置）代理"
 
-msgid "Forward Netflix Proxy through Main Proxy"
-msgstr "分流服务器流量通过主服务节点中转代理转发"
-
 msgid "Server Type"
 msgstr "服务端类型"
 
@@ -924,26 +835,14 @@ msgstr "SOCKS5 代理服务端（全局）"
 msgid "Socks5 Auth Mode"
 msgstr "Socks5 认证方式"
 
-msgid "Socks protocol auth methods, default:noauth."
-msgstr "Socks 协议的认证方式，默认值：noauth。"
-
 msgid "Socks5 User"
 msgstr "Socks5 用户名"
-
-msgid "Only when Socks5 Auth Mode is password valid, Mandatory."
-msgstr "仅当 Socks5 认证方式为 Password 时有效，必填。"
 
 msgid "Socks5 Password"
 msgstr "Socks5 密码"
 
-msgid "Only when Socks5 Auth Mode is password valid, Not mandatory."
-msgstr "仅当 Socks5 认证方式为 Password 时有效，非必填。"
-
 msgid "Enabled Mixed"
 msgstr "启用 Mixed"
-
-msgid "Mixed as an alias of socks, default:Enabled."
-msgstr "Mixed 作为 SOCKS 的别名，默认：启用。"
 
 msgid "Xray Fragment Settings"
 msgstr "Xray 分片设置"
@@ -951,14 +850,8 @@ msgstr "Xray 分片设置"
 msgid "Fragment"
 msgstr "分片"
 
-msgid "TCP fragments, which can deceive the censorship system in some cases, such as bypassing SNI blacklists."
-msgstr "TCP 分片，在某些情况下可以欺骗审查系统，比如绕过 SNI 黑名单。"
-
 msgid "Fragment Packets"
 msgstr "分片方式"
-
-msgid "\"1-3\" is for segmentation at TCP layer, applying to the beginning 1 to 3 data writes by the client. \"tlshello\" is for TLS client hello packet fragmentation."
-msgstr "\"1-3\" 是 TCP 的流切片，应用于客户端第 1 至第 3 次写数据。\"tlshello\" 是 TLS 握手包切片。"
 
 msgid "Fragment Length"
 msgstr "分片包长"
@@ -974,15 +867,6 @@ msgstr "分片间隔（ms）"
 
 msgid "Noise"
 msgstr "噪声"
-
-msgid "UDP noise, Under some circumstances it can bypass some UDP based protocol restrictions."
-msgstr "UDP 噪声，在某些情况下可以绕过一些针对 UDP 协议的限制。"
-
-msgid "To send noise packets, select \"Noise\" in Xray Settings."
-msgstr "在 Xray 设置中勾选 “噪声” 以发送噪声包。"
-
-msgid "For specific usage, see:"
-msgstr "具体使用方法，请参见："
 
 msgid "Click to the page"
 msgstr "点击前往"
@@ -1001,9 +885,6 @@ msgstr "数据包"
 
 msgid "Delay (ms)"
 msgstr "延迟（ms）"
-
-msgid "warning! Please do not reuse the port!"
-msgstr "警告！请不要重复使用端口！"
 
 msgid "Deny Domain List"
 msgstr "禁止连接的域名"
@@ -1059,12 +940,6 @@ msgstr "XHTTP 路径"
 msgid "XHTTP Extra"
 msgstr "XHTTP 附加项"
 
-msgid "Enable this option to configure XHTTP Extra (JSON format)."
-msgstr "启用此选项配置 XHTTP 附加项（JSON 格式）。"
-
-msgid "Configure XHTTP Extra Settings (JSON format), see:"
-msgstr "配置 XHTTP 额外设置（JSON 格式），请参见："
-
 msgid "Invalid JSON format"
 msgstr "无效的 JSON 格式"
 
@@ -1102,10 +977,10 @@ msgid "QUIC Key"
 msgstr "QUIC 密钥"
 
 msgid "VideoCall (SRTP)"
-msgstr "视频通话（SRTP）"
+msgstr "视频通话"
 
 msgid "BitTorrent (uTP)"
-msgstr "BT 下载（uTP）"
+msgstr "BT 下载"
 
 msgid "WechatVideo"
 msgstr "微信视频通话"
@@ -1134,17 +1009,8 @@ msgstr "写入缓冲区大小"
 msgid "Congestion"
 msgstr "拥塞控制"
 
-msgid "Enabled Kernel virtual NIC TUN(optional)"
-msgstr "启用内核的虚拟网卡 TUN（可选）"
-
-msgid "Virtual NIC TUN of Linux kernel can be used only when system supports and have root permission. If used, IPv6 routing table 1023 is occupied."
-msgstr "需要系统支持且有 root 权限才能使用 Linux 内核的虚拟网卡 TUN，使用后会占用 IPv6 的 1023 号路由表。"
-
 msgid "Local addresses"
 msgstr "本地地址"
-
-msgid "Reserved bytes(optional)"
-msgstr "保留字节（可选）"
 
 msgid "Wireguard reserved bytes."
 msgstr "Wireguard 保留字节。"
@@ -1163,9 +1029,6 @@ msgstr "默认为 0 表示无心跳。"
 
 msgid "allowedIPs(optional)"
 msgstr "allowedIPs（可选）"
-
-msgid "Wireguard allows only traffic from specific source IP."
-msgstr "Wireguard 仅允许特定源 IP 的流量。"
 
 msgid "Network interface to use"
 msgstr "使用的网络接口"
@@ -1241,12 +1104,6 @@ msgstr "接收窗口（无需确认即可接收的最大字节数：默认8Mb）
 
 msgid "Dual-stack Listening Socket"
 msgstr "双栈 Socket 监听"
-
-msgid "If this option is not set, the socket behavior is platform dependent."
-msgstr "如果未设置此选项，则 Socket 行为依赖于平台。"
-
-msgid "Maximum packet size the socks5 server can receive from external"
-msgstr "socks5 服务器可以从外部接收的最大数据包大小（单位：字节）"
 
 msgid "Disable ChinaDNS-NG"
 msgstr "直通模式（禁用 ChinaDNS-NG）"
