@@ -1049,7 +1049,7 @@ msgid "Apply"
 msgstr "应用"
 
 msgid "Enable Netflix Mode"
-msgstr "启用 Netflix 分流模式"
+msgstr "启用 Netflix 分流"
 
 msgid "TUIC User UUID"
 msgstr "TUIC 用户 uuid"
