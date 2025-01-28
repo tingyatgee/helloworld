@@ -797,7 +797,7 @@ msgid "Please confirm the current certificate path"
 msgstr "请选择确认所传证书，证书不正确将无法运行"
 
 msgid "Subscribe Default Auto-Switch"
-msgstr "开启自动切换"
+msgstr "自动切换"
 
 msgid "SOCKS5 Proxy Server Settings"
 msgstr "SOCKS5 代理服务端设置"
