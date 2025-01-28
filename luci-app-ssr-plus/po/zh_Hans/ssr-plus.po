@@ -674,7 +674,7 @@ msgid "LAN IP AC"
 msgstr "LAN IP 访问控制"
 
 msgid "Game Mode UDP Server"
-msgstr "游戏模式 UDP 中继服务器"
+msgstr "中继服务器"
 
 msgid "Game Mode UDP Relay"
 msgstr "游戏模式 UDP 中继"
