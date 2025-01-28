@@ -22,6 +22,9 @@ msgstr "ss 加密"
 msgid "AlterId"
 msgstr "额外 ID"
 
+msgid "Reserved bytes"
+msgstr "保留字节"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
