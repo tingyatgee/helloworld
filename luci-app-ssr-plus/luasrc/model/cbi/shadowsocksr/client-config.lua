@@ -919,7 +919,7 @@ o.datatype = "cidr"
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.rmempty = true
 
-o = s:option(DynamicList, "reserved", translate("Reserved bytes(optional)"))
+o = s:option(DynamicList, "reserved", translate("Reserved bytes"))
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.rmempty = true
 
