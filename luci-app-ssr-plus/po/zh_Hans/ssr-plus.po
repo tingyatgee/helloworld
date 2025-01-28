@@ -670,9 +670,6 @@ msgstr "XHTTP 路径"
 msgid "XHTTP Extra"
 msgstr "XHTTP 附加项"
 
-msgid "Invalid JSON format"
-msgstr "无效的 JSON 格式"
-
 msgid "HTTP/2 Host"
 msgstr "HTTP/2 主机名"
 
@@ -765,15 +762,6 @@ msgstr "应用"
 
 msgid "Enable Netflix Mode"
 msgstr "Netflix 分流"
-
-msgid "TUIC User UUID"
-msgstr "TUIC 用户 uuid"
-
-msgid "TUIC Server IP Address"
-msgstr "TUIC 服务器 IP 地址"
-
-msgid "TUIC User Password"
-msgstr "TUIC 用户密钥"
 
 msgid "UDP relay mode"
 msgstr "UDP 中继模式"
