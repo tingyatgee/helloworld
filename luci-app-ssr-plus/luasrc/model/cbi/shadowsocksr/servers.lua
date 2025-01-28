@@ -111,7 +111,7 @@ function o.cfgvalue(self, section)
 	return m:get(section, "v2ray_protocol") or Value.cfgvalue(self, section) or translate("None")
 end
 
-o = s:option(DummyValue, "alias", translate("Alias"))
+o = s:option(DummyValue, "alias", translate("Node"))
 function o.cfgvalue(...)
 	return Value.cfgvalue(...) or translate("None")
 end
