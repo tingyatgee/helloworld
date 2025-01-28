@@ -187,7 +187,7 @@ end
 
 -- Socks Auth
 if is_finded("xray") then
-o = s:option(ListValue, "socks5_auth", translate("Socks5 Auth Mode"), translate("Socks protocol auth methods, default:noauth."))
+o = s:option(ListValue, "socks5_auth", translate("Socks5 Auth Mode"))
 o.default = "noauth"
 o:value("noauth", "NOAUTH")
 o:value("password", "PASSWORD")
