@@ -429,7 +429,7 @@ o:depends("type", "shadowtls")
 o.default = "1"
 o.rmempty = false
 
-o = s:option(Flag, "fastopen", translate("TCP Fast Open"), translate("Enabling TCP Fast Open Requires Server Support."))
+o = s:option(Flag, "fastopen", translate("TCP Fast Open"))
 o:depends("type", "shadowtls")
 o.default = "0"
 o.rmempty = false
