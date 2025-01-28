@@ -122,19 +122,19 @@ msgid "xudpProxyUDP443"
 msgstr "对被代理的 UDP/443 流量处理方式"
 
 msgid "custom_tcpcongestion"
-msgstr "连接服务器节点的 TCP 拥塞控制算法"
+msgstr "TCP 拥塞控制"
 
 msgid "comment_tcpcongestion_disable"
 msgstr "系统默认值"
 
 msgid "Protocol param (optional)"
-msgstr "传输协议参数（可选）"
+msgstr "传输协议参数"
 
 msgid "Obfs"
 msgstr "混淆插件"
 
 msgid "Obfs param (optional)"
-msgstr "混淆参数（可选）"
+msgstr "混淆参数"
 
 msgid "Authentication type"
 msgstr "验证类型"
