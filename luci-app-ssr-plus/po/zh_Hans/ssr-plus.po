@@ -611,7 +611,7 @@ msgid "Auto Update Server subscription, GFW list and CHN route"
 msgstr "自动更新服务器订阅、GFW 列表和中国大陆 IP 段"
 
 msgid "Subscribe URL"
-msgstr "SS/SSR/V2/TROJAN 订阅 URL"
+msgstr "订阅 URL"
 
 msgid "Subscribe Filter Words"
 msgstr "订阅节点关键字过滤"
