@@ -473,10 +473,10 @@ msgid "adblock_url"
 msgstr "广告屏蔽更新 URL"
 
 msgid "Apple Domains Update url"
-msgstr "Apple 域名更新 URL"
+msgstr "更新 URL"
 
 msgid "Apple Domains DNS"
-msgstr "Apple 域名 DNS"
+msgstr "域名 DNS"
 
 msgid "gfwlist Update url"
 msgstr "黑名单更新 URL"
