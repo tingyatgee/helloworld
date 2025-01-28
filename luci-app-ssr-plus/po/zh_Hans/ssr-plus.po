@@ -383,10 +383,10 @@ msgid "Restart Service"
 msgstr "重启服务"
 
 msgid "Google Connectivity"
-msgstr "【谷歌】连通性检查"
+msgstr "【谷歌】连通性"
 
 msgid "Baidu Connectivity"
-msgstr "【百度】连通性检查"
+msgstr "【百度】连通性"
 
 msgid "No Check"
 msgstr "未检查"
