@@ -22,6 +22,9 @@ msgstr "保留字节"
 msgid "Enabled Kernel virtual NIC TUN"
 msgstr "启用内核虚拟网卡"
 
+msgid "Header"
+msgstr "标头"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
