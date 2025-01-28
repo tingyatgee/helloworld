@@ -635,7 +635,7 @@ msgid "WAN White List IP"
 msgstr "不走代理的 WAN IP"
 
 msgid "WAN Force Proxy IP"
-msgstr "强制走代理的 WAN IP"
+msgstr "强制代理的 WAN IP"
 
 msgid "LAN Bypassed Host List"
 msgstr "不走代理的局域网 LAN IP"
