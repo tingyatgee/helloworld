@@ -58,9 +58,9 @@ local encrypt_methods_ss = {
 	"chacha20-ietf-poly1305",
 	"xchacha20-ietf-poly1305",
 	-- aead 2022
-	"2022-blake3-aes-128-gcm",
-	"2022-blake3-aes-256-gcm",
-	"2022-blake3-chacha20-poly1305"
+	"blake3-aes-128-gcm",
+	"blake3-aes-256-gcm",
+	"blake3-chacha20-poly1305"
 	--[[ stream
 	"none",
 	"plain",
