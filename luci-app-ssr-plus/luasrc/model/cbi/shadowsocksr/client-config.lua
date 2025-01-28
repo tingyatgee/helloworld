@@ -1105,7 +1105,7 @@ o.default = "0"
 o:depends({type = "v2ray", v2ray_protocol = "vless", transport = "xhttp"})
 
 -- [[ MPTCP ]]--
-o = s:option(Flag, "mptcp", translate("MPTCP"), translate("Enable Multipath TCP, need to be enabled in both server and client configuration."))
+o = s:option(Flag, "mptcp", translate("MPTCP"))
 o.rmempty = true
 o.default = "0"
 o:depends({type = "v2ray", v2ray_protocol = "vless"})
