@@ -740,7 +740,7 @@ msgid "Enter Custom Ports"
 msgstr "输入自定义端口"
 
 msgid "Socket Connected"
-msgstr "连接测试"
+msgstr "测试"
 
 msgid "Ping Latency"
 msgstr "延迟"
