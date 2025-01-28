@@ -635,7 +635,7 @@ msgid "Subscribe Filter Words"
 msgstr "关键字过滤"
 
 msgid "Subscribe Save Words"
-msgstr "关键字保留检查"
+msgstr "关键字保留"
 
 msgid "Update"
 msgstr "更新"
