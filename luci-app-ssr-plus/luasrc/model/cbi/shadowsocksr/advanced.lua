@@ -132,13 +132,6 @@ o:value("https://anti-ad.net/anti-ad-for-dnsmasq.conf", translate("anti-AD"))
 o.default = "https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_dnsmasq.conf"
 o:depends("adblock", "1")
 
-o = s:option(Button, "Reset", translate("Reset to defaults"))
-o.inputstyle = "reload"
-o.write = function()
-	luci.sys.call("/etc/init.d/shadowsocksr reset")
-	luci.http.redirect(luci.dispatcher.build_url("admin", "services", "shadowsocksr", "servers"))
-end
-
 -- [[ SOCKS5 Proxy ]]--
 s = m:section(TypedSection, "socks5_proxy", translate("Global SOCKS5 Proxy Server"))
 s.anonymous = true
