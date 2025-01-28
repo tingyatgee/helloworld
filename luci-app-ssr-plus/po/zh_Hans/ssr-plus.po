@@ -455,13 +455,13 @@ msgid "Enable Auto Switch"
 msgstr "启用自动切换"
 
 msgid "Switch check cycly(second)"
-msgstr "自动切换检查周期（秒）"
+msgstr "检查周期: 秒"
 
 msgid "Check timout(second)"
-msgstr "切换检查超时时间（秒）"
+msgstr "检查超时: 秒"
 
 msgid "Check Try Count"
-msgstr "切换检查重试次数"
+msgstr "重试次数"
 
 msgid "Apple domains optimization"
 msgstr "Apple 域名解析优化"
