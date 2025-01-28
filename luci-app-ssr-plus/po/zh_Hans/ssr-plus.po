@@ -803,7 +803,7 @@ msgid "SOCKS5 Proxy Server Settings"
 msgstr "SOCKS5 代理服务端设置"
 
 msgid "SOCKS5 Proxy Server"
-msgstr "SOCKS5 代理服务端"
+msgstr "SOCKS5 代理"
 
 msgid "Enable SOCKS5 Proxy Server"
 msgstr "启用 SOCKS5 代理服务"
