@@ -767,7 +767,7 @@ msgid "Black Domain List"
 msgstr "强制走代理的域名"
 
 msgid "Update Subscribe List"
-msgstr "更新 URL"
+msgstr "更新地址"
 
 msgid "Update All Subscribe Servers"
 msgstr "更新订阅服务器节点"
