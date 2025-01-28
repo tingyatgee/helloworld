@@ -482,7 +482,7 @@ msgid "Use SSR DNS Tunnel"
 msgstr "使用 SSR DNS 隧道"
 
 msgid "DNS Anti-pollution"
-msgstr "DNS 防污染服务"
+msgstr "DNS 防止污染"
 
 msgid "Use Other DNS Tunnel(Need to install)"
 msgstr "使用其他 DNS 转发"
