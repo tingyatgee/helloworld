@@ -111,7 +111,7 @@ o:depends("shunt_dns_mode", "2")
 o.rmempty = false
 o.default = "0"
 
-o = s:option(Flag, "apple_optimization", translate("Apple domains optimization"), translate("For Apple domains equipped with Chinese mainland CDN, always responsive to Chinese CDN IP addresses"))
+o = s:option(Flag, "apple_optimization", translate("Apple domains optimization"))
 o.rmempty = false
 o.default = "1"
 
@@ -120,7 +120,7 @@ o:value("https://fastly.jsdelivr.net/gh/felixonmars/dnsmasq-china-list/apple.chi
 o.default = "https://fastly.jsdelivr.net/gh/felixonmars/dnsmasq-china-list/apple.china.conf"
 o:depends("apple_optimization", "1")
 
-o = s:option(Value, "apple_dns", translate("Apple Domains DNS"), translate("If empty, Not change Apple domains parsing DNS (Default is empty)"))
+o = s:option(Value, "apple_dns", translate("Apple Domains DNS"))
 o.rmempty = true
 o.default = ""
 o.datatype = "ip4addr"
