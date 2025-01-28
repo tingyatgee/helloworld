@@ -581,7 +581,7 @@ o.rmempty = true
 o:depends({type = "v2ray", v2ray_protocol = "vmess"})
 
 -- VmessId
-o = s:option(Value, "vmess_id", translate("Vmess/VLESS ID (UUID)"))
+o = s:option(Value, "vmess_id", translate("UUID"))
 o.rmempty = true
 o.default = uuid
 o:depends({type = "v2ray", v2ray_protocol = "vmess"})
