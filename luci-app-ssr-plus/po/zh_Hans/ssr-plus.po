@@ -28,6 +28,9 @@ msgstr "标头"
 msgid "Permit Without Stream"
 msgstr "无流许可"
 
+msgid "UDP over TCP"
+msgstr "UDP 服务中转"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
