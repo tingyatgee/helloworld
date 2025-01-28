@@ -698,10 +698,10 @@ msgid "Game Mode Host List"
 msgstr "增强游戏模式客户端 LAN IP"
 
 msgid "Multi Threads Option"
-msgstr "多线程并发转发"
+msgstr "并发转发"
 
 msgid "Auto Threads"
-msgstr "自动（CPU 线程数）"
+msgstr "自动"
 
 msgid "1 Thread"
 msgstr "单线程"
