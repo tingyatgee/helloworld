@@ -835,6 +835,9 @@ msgstr "服务端类型"
 msgid "Local Servers"
 msgstr "本机服务端"
 
+msgid "SOCKS5 Proxy Server"
+msgstr "SOCKS5 代理"
+
 msgid "Global SOCKS5 Proxy Server"
 msgstr "SOCKS5 代理服务端"
 
