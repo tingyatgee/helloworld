@@ -667,9 +667,6 @@ msgstr "每行一个域名，无需写前面的 http(s)://，提交后即时生�
 msgid "Servers subscription and manage"
 msgstr "服务器节点订阅与管理"
 
-msgid "Through proxy update list, Not Recommended"
-msgstr "通过路由器自身代理更新订阅"
-
 msgid "LAN IP AC"
 msgstr "LAN IP 访问控制"
 
