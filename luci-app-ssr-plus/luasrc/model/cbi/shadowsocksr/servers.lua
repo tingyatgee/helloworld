@@ -156,7 +156,7 @@ node.write = function(self, section)
 	luci.http.redirect(luci.dispatcher.build_url("admin", "services", "shadowsocksr", "restart"))
 end
 
-o = s:option(Flag, "switch_enable", translate("Auto Switch"))
+o = s:option(Flag, "switch_enable", translate("Switch Node"))
 o.rmempty = false
 function o.cfgvalue(...)
 	return Value.cfgvalue(...) or 1
