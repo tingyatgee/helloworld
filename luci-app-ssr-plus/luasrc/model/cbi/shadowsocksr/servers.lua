@@ -135,7 +135,7 @@ end
 
 o = s:option(DummyValue, "server", translate("Ping Latency"))
 o.template = "shadowsocksr/ping"
-o.width = "10%"
+o.width = "14%"
 
 local global_server = uci:get_first('shadowsocksr', 'global', 'global_server') 
 
