@@ -1067,7 +1067,7 @@ o:depends({type = "v2ray", v2ray_protocol = "socks"})
 o:depends({type = "v2ray", v2ray_protocol = "http"})
 
 -- [[ XUDP Mux ]] --
-o = s:option(Flag, "xmux", translate("Xudp Mux"), translate("Enable Xudp Mux"))
+o = s:option(Flag, "xmux", translate("Xudp Mux"))
 o.rmempty = false
 o.default = false
 o:depends({type = "v2ray", v2ray_protocol = "vless", transport = "xhttp"})
@@ -1099,7 +1099,7 @@ o:value("skip", translate("skip"))
 o:depends("mux", true)
 
 -- [[ XHTTP TCP Fast Open ]]--
-o = s:option(Flag, "tcpfastopen", translate("TCP Fast Open"), translate("Enabling TCP Fast Open Requires Server Support."))
+o = s:option(Flag, "tcpfastopen", translate("TCP Fast Open"))
 o.rmempty = true
 o.default = "0"
 o:depends({type = "v2ray", v2ray_protocol = "vless", transport = "xhttp"})
@@ -1180,7 +1180,7 @@ o:depends("certificate", 1)
 o:value("/etc/ssl/private/ca.pem")
 o.default = "/etc/ssl/private/ca.pem"
 
-o = s:option(Flag, "fast_open", translate("TCP Fast Open"), translate("Enabling TCP Fast Open Requires Server Support."))
+o = s:option(Flag, "fast_open", translate("TCP Fast Open"))
 o.rmempty = true
 o.default = "0"
 o:depends("type", "ssr")
