@@ -455,7 +455,7 @@ msgid "Auto Switch"
 msgstr "自动切换"
 
 msgid "Enable Auto Switch"
-msgstr "启用自动切换"
+msgstr "自动切换"
 
 msgid "Switch check cycly(second)"
 msgstr "检查周期: 秒"
