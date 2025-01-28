@@ -158,6 +158,7 @@ end
 
 o = s:option(Flag, "switch_enable", translate("Switch Node"))
 o.rmempty = false
+o.width = "10%"
 function o.cfgvalue(...)
 	return Value.cfgvalue(...) or 1
 end
