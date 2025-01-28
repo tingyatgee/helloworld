@@ -191,7 +191,7 @@ msgid "QUIC maxIdleTimeout(Unit:second)"
 msgstr "QUIC 最长空闲超时时间（单位：秒）"
 
 msgid "The keep-alive period.(Unit:second)"
-msgstr "心跳包发送间隔（单位：秒）"
+msgstr "心跳包发送间隔秒数"
 
 msgid "Certificate fingerprint"
 msgstr "证书指纹"
