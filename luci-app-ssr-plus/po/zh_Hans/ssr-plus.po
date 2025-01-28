@@ -131,7 +131,7 @@ msgid "Certificate fingerprint"
 msgstr "证书指纹"
 
 msgid "Shadowsocks-rust Version"
-msgstr "shadowsocks rust"
+msgstr "Shadowsocks Rust"
 
 msgid "Vmess Protocol"
 msgstr "VMESS 协议"
