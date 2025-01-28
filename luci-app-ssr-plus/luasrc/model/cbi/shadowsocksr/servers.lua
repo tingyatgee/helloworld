@@ -56,13 +56,6 @@ o.rmempty = true
 o = s:option(Value, "save_words", translate("Subscribe Save Words"))
 o.rmempty = true
 
-o = s:option(Button, "update_Sub", translate("Update Subscribe List"))
-o.inputstyle = "reload"
-o.write = function()
-	uci:commit("shadowsocksr")
-	luci.http.redirect(luci.dispatcher.build_url("admin", "services", "shadowsocksr", "servers"))
-end
-
 o = s:option(Flag, "switch", translate("Subscribe Default Auto-Switch"))
 o.rmempty = false
 o.default = "1"
