@@ -56,7 +56,7 @@ msgid "Servers Setting"
 msgstr "服务器配置"
 
 msgid "Alias(optional)"
-msgstr "别名（可选）"
+msgstr "备注"
 
 msgid "Onetime Authentication"
 msgstr "一次验证"
