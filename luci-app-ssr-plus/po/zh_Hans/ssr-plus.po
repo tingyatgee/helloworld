@@ -19,6 +19,9 @@ msgstr "ssr 加密"
 msgid "SS Encrypt Method"
 msgstr "ss 加密"
 
+msgid "AlterId"
+msgstr "额外 ID"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
