@@ -350,16 +350,16 @@ msgid "Running Mode"
 msgstr "运行模式"
 
 msgid "IP Route Mode"
-msgstr "绕过中国大陆 IP 模式"
+msgstr "白名单模式"
 
 msgid "GFW List Mode"
-msgstr "GFW 列表模式"
+msgstr "黑名单模式"
 
 msgid "Global Mode"
 msgstr "全局模式"
 
 msgid "Oversea Mode"
-msgstr "海外用户回国模式"
+msgstr "海归模式"
 
 msgid "Router Proxy"
 msgstr "路由器访问控制"
