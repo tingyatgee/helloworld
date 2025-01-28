@@ -976,7 +976,7 @@ if is_finded("xray") then
 	o.rmempty = true
 	o:depends({type = "v2ray", v2ray_protocol = "vless", reality = true})
 
-	o = s:option(Value, "reality_spiderx", translate("spiderX"))
+	o = s:option(Value, "reality_spiderx", translate("SpiderX"))
 	o.rmempty = true
 	o:depends({type = "v2ray", v2ray_protocol = "vless", reality = true})
 
