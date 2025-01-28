@@ -686,7 +686,7 @@ msgid "Delete All Subscribe Servers"
 msgstr "删除所有订阅服务器节点"
 
 msgid "Servers Nodes"
-msgstr "服务器节点"
+msgstr "服务节点"
 
 msgid "Use Local DNS Service listen port 5335"
 msgstr "使用本机端口为 5335 的 DNS 服务"
