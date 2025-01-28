@@ -707,7 +707,7 @@ msgid "Use Local DNS Service listen port 5335"
 msgstr "使用端口 5335 的 DNS 服务"
 
 msgid "Server Node Type"
-msgstr "服务器节点类型"
+msgstr "节点类型"
 
 msgid "Game Mode Host List"
 msgstr "增强游戏模式客户端 LAN IP"
