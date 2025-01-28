@@ -787,9 +787,6 @@ msgstr "请选择确认所传证书，证书不正确将无法运行"
 msgid "Subscribe Default Auto-Switch"
 msgstr "开启自动切换"
 
-msgid "Subscribe new add server default Auto-Switch on"
-msgstr "订阅加入的新节点默认开启自动切换"
-
 msgid "SOCKS5 Proxy Server Settings"
 msgstr "SOCKS5 代理服务端设置"
 
