@@ -119,13 +119,13 @@ function o.cfgvalue(...)
 	return Value.cfgvalue(...) or "-"
 end
 
-o = sec:option(DummyValue, "encrypt_method", translate("Encrypt Method"))
+o = sec:option(DummyValue, "encrypt_method", translate("SSR Encrypt Method"))
 function o.cfgvalue(...)
 	local v = Value.cfgvalue(...)
 	return v and v:upper() or "-"
 end
 
-o = sec:option(DummyValue, "encrypt_method_ss", translate("Encrypt Method"))
+o = sec:option(DummyValue, "encrypt_method_ss", translate("SS Encrypt Method"))
 function o.cfgvalue(...)
 	local v = Value.cfgvalue(...)
 	return v and v:upper() or "-"
