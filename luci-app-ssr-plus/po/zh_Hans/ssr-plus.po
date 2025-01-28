@@ -43,9 +43,6 @@ msgstr "日志"
 msgid "Global Setting"
 msgstr "全局设置"
 
-msgid "Global Server"
-msgstr "全局服务器"
-
 msgid "Same as Global Server"
 msgstr "与全局服务器相同"
 
@@ -274,9 +271,6 @@ msgstr "检查连通性"
 msgid "Check Server"
 msgstr "检查服务器"
 
-msgid "Auto Switch"
-msgstr "自动切换"
-
 msgid "Enable Auto Switch"
 msgstr "自动切换"
 
@@ -313,9 +307,6 @@ msgstr "白名单更新 URL"
 msgid "nfip_url"
 msgstr "Netflix IP 段更新 URL"
 
-msgid "Enable Process Deamon"
-msgstr "启用进程自动守护"
-
 msgid "Resolve Dns Mode"
 msgstr "DNS 解析方式"
 
@@ -325,29 +316,14 @@ msgstr "DNS 防止污染"
 msgid "Import"
 msgstr "导入配置信息"
 
-msgid "Export SSR"
-msgstr "导出 SSR 配置信息"
-
 msgid "Import configuration information successfully."
 msgstr "导入配置信息成功。"
-
-msgid "Invalid format."
-msgstr "无效的格式。"
 
 msgid "User cancelled."
 msgstr "用户已取消。"
 
 msgid "Paste sharing link here"
 msgstr "在此处粘贴分享链接"
-
-msgid "Unable to copy SSR to clipboard."
-msgstr "无法复制 SSR 网址到剪贴板。"
-
-msgid "Copy SSR to clipboard successfully."
-msgstr "成功复制 SSR 网址到剪贴板。"
-
-msgid "Servers Manage"
-msgstr "服务器管理"
 
 msgid "Auto Update"
 msgstr "自动更新"
@@ -387,9 +363,6 @@ msgstr "访问国外域名 DNS 服务器"
 
 msgid "Use MOSDNS query"
 msgstr "使用 MOSDNS 查询"
-
-msgid "Custom DNS Server for mosdns"
-msgstr "MOSDNS 自定义 DNS 服务器"
 
 msgid "Disable IPv6 In MOSDNS Query Mode (Shunt Mode)"
 msgstr "禁止 MOSDNS 返回 IPv6 记录"
@@ -468,12 +441,6 @@ msgstr "全局代理的 LAN IP"
 
 msgid "Normal Proxy"
 msgstr "跟随全局设置"
-
-msgid "Bypassed Proxy"
-msgstr "不走代理"
-
-msgid "Forwarded Proxy"
-msgstr "全局代理"
 
 msgid "Servers subscription and manage"
 msgstr "节点订阅与管理"
@@ -574,9 +541,6 @@ msgstr "插件参数"
 msgid "Self-signed Certificate"
 msgstr "自签证书"
 
-msgid "upload"
-msgstr "上传"
-
 msgid "Upload"
 msgstr "上传"
 
@@ -585,9 +549,6 @@ msgstr "没有上传证书。"
 
 msgid "Current Certificate Path"
 msgstr "当前证书路径"
-
-msgid "Please confirm the current certificate path"
-msgstr "请选择确认所传证书，证书不正确将无法运行"
 
 msgid "Subscribe Default Auto-Switch"
 msgstr "自动切换"
@@ -603,12 +564,6 @@ msgstr "Netflix 分流服务器"
 
 msgid "Netflix Domain List"
 msgstr "Netflix 分流域名列表"
-
-msgid "Netflix IP List"
-msgstr "Netflix 分流IP列表"
-
-msgid "External Proxy Mode"
-msgstr "分流服务器前置代理"
 
 msgid "Server Type"
 msgstr "服务端类型"
@@ -630,9 +585,6 @@ msgstr "Socks5 用户名"
 
 msgid "Socks5 Password"
 msgstr "Socks5 密码"
-
-msgid "Enabled Mixed"
-msgstr "启用 Mixed"
 
 msgid "Xray Fragment Settings"
 msgstr "Xray 分片设置"
