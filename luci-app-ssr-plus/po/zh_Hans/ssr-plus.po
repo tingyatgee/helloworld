@@ -680,7 +680,7 @@ msgid "Please refer to the following writing"
 msgstr "每行一个域名，无需写前面的 http(s)://，提交后即时生效"
 
 msgid "Servers subscription and manage"
-msgstr "服务器节点订阅与管理"
+msgstr "节点订阅与管理"
 
 msgid "LAN IP AC"
 msgstr "LAN IP 访问控制"
