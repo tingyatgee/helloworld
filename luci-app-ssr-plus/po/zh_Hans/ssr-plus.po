@@ -563,7 +563,7 @@ msgid "Server Type"
 msgstr "服务端类型"
 
 msgid "Local Servers"
-msgstr "本机服务端"
+msgstr "本机代理服务"
 
 msgid "SOCKS5 Proxy Server"
 msgstr "SOCKS5 代理"
