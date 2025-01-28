@@ -461,10 +461,10 @@ msgid "Apple Domains DNS"
 msgstr "Apple 域名 DNS"
 
 msgid "gfwlist Update url"
-msgstr "GFW 列表更新 URL"
+msgstr "黑名单更新 URL"
 
 msgid "Chnroute Update url"
-msgstr "中国大陆 IP 段更新 URL"
+msgstr "白名单更新 URL"
 
 msgid "nfip_url"
 msgstr "Netflix IP 段更新 URL"
