@@ -131,7 +131,7 @@ msgid "comment_tcpcongestion_disable"
 msgstr "系统默认值"
 
 msgid "Protocol param (optional)"
-msgstr "传输协议参数"
+msgstr "协议参数"
 
 msgid "Obfs"
 msgstr "混淆插件"
