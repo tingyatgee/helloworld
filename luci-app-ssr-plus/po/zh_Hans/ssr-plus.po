@@ -470,7 +470,7 @@ msgid "Apple domains optimization"
 msgstr "Apple 域名解析优化"
 
 msgid "Enable adblock"
-msgstr "启用广告屏蔽"
+msgstr "广告屏蔽"
 
 msgid "adblock_url"
 msgstr "广告屏蔽更新 URL"
