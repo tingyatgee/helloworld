@@ -127,9 +127,6 @@ msgstr "用户验证"
 msgid "Obfuscation Type"
 msgstr "混淆类型"
 
-msgid "Obfuscation Password"
-msgstr "混淆密码"
-
 msgid "The keep-alive period.(Unit:second)"
 msgstr "心跳包发送间隔秒数"
 
