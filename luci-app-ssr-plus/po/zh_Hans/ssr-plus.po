@@ -770,7 +770,7 @@ msgid "Black Domain List"
 msgstr "强制走代理的域名"
 
 msgid "Update Subscribe List"
-msgstr "更新 URL 列表"
+msgstr "更新 URL"
 
 msgid "Update All Subscribe Servers"
 msgstr "更新订阅服务器节点"
