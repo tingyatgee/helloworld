@@ -1046,7 +1046,7 @@ msgid "Default value 0 indicatesno heartbeat."
 msgstr "默认为 0 表示无心跳。"
 
 msgid "allowedIPs(optional)"
-msgstr "allowedIPs（可选）"
+msgstr "允许的 IP"
 
 msgid "Network interface to use"
 msgstr "使用的网络接口"
