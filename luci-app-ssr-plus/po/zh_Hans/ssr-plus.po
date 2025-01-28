@@ -704,7 +704,7 @@ msgid "Servers Nodes"
 msgstr "服务节点"
 
 msgid "Use Local DNS Service listen port 5335"
-msgstr "使用本机端口为 5335 的 DNS 服务"
+msgstr "使用端口 5335 的 DNS 服务"
 
 msgid "Server Node Type"
 msgstr "服务器节点类型"
