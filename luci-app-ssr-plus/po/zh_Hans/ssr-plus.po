@@ -212,7 +212,7 @@ msgid "Shadow-TLS ChainPoxy type"
 msgstr "代理链类型"
 
 msgid "Shadowsocks-rust Version"
-msgstr "shadowsocks rust 版本"
+msgstr "shadowsocks rust"
 
 msgid "Vmess Protocol"
 msgstr "VMESS 协议"
