@@ -377,10 +377,10 @@ msgid "UDP Relay"
 msgstr "UDP 中继"
 
 msgid "Google Connectivity"
-msgstr "【谷歌】连通性"
+msgstr "【谷歌】连通性检查"
 
 msgid "Baidu Connectivity"
-msgstr "【百度】连通性"
+msgstr "【百度】连通性检查"
 
 msgid "No Check"
 msgstr "未检查"
