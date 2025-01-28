@@ -575,13 +575,13 @@ msgid "Use DNS from WAN and 114DNS"
 msgstr "使用 WAN 下发的 DNS 和 114 DNS"
 
 msgid "Update time (every day)"
-msgstr "更新时间（每天）"
+msgstr "更新钟点"
 
 msgid "Update Time (Every Week)"
-msgstr "更新时间（每周）"
+msgstr "更新时间"
 
 msgid "Update Interval (min)"
-msgstr "更新间隔 (分钟)"
+msgstr "间隔分钟"
 
 msgid "Every Day"
 msgstr "每天"
