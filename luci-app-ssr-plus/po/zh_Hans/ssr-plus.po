@@ -878,7 +878,7 @@ msgid "Packet"
 msgstr "数据包"
 
 msgid "Delay (ms)"
-msgstr "延迟（ms）"
+msgstr "延迟"
 
 msgid "Deny Domain List"
 msgstr "禁止连接的域名"
