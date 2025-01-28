@@ -743,7 +743,7 @@ msgid "Socket Connected"
 msgstr "连接测试"
 
 msgid "Ping Latency"
-msgstr "Ping 延迟"
+msgstr "延迟"
 
 msgid "Bypass Domain List"
 msgstr "不走代理的域名"
