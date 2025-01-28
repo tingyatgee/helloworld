@@ -674,7 +674,7 @@ msgid "Game Mode UDP Server"
 msgstr "中继服务器"
 
 msgid "Game Mode UDP Relay"
-msgstr "游戏模式 UDP 中继"
+msgstr "UDP 中继模式"
 
 msgid "Server failsafe auto swith and custom update settings"
 msgstr "服务器节点故障自动切换/广告屏蔽/中国大陆 IP 段数据库更新设置"
