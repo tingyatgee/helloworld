@@ -626,7 +626,7 @@ msgid "Every Sunday"
 msgstr "每周日"
 
 msgid "Subscribe URL"
-msgstr "订阅 URL"
+msgstr "订阅地址"
 
 msgid "Subscribe Filter Words"
 msgstr "关键字过滤"
