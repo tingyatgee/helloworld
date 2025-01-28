@@ -464,7 +464,7 @@ msgid "Server Node Type"
 msgstr "节点类型"
 
 msgid "Game Mode Host List"
-msgstr "增强游戏模式客户端 LAN IP"
+msgstr "增强模式客户端 LAN IP"
 
 msgid "Multi Threads Option"
 msgstr "并发转发"
