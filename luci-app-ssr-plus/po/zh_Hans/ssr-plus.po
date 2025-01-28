@@ -728,7 +728,7 @@ msgid "128 Threads"
 msgstr "128 线程"
 
 msgid "Proxy Ports"
-msgstr "需要代理的端口"
+msgstr "代理端口"
 
 msgid "All Ports"
 msgstr "所有端口"
