@@ -909,7 +909,7 @@ o:depends("transport", "kcp")
 o.rmempty = true
 
 -- [[ WireGuard 部分 ]]--
-o = s:option(Flag, "kernelmode", translate("Enabled Kernel virtual NIC TUN(optional)"))
+o = s:option(Flag, "kernelmode", translate("Enabled Kernel virtual NIC TUN"))
 o:depends({type = "v2ray", v2ray_protocol = "wireguard"})
 o.default = "0"
 o.rmempty = true
