@@ -115,12 +115,6 @@ msgstr "TLS 主机名"
 msgid "allowInsecure"
 msgstr "允许不安全连接"
 
-msgid "Enable Mux.Cool"
-msgstr "启用 Mux.Cool"
-
-msgid "Enable Xudp Mux"
-msgstr "启用 Xudp Mux"
-
 msgid "concurrency"
 msgstr "TCP 最大并发连接数"
 
@@ -161,7 +155,7 @@ msgid "Port Range"
 msgstr "端口范围值"
 
 msgid "Port Hopping Interval(Unit:Second)"
-msgstr "端口跃迁间隔（单位：秒）"
+msgstr "端口跃迁间隔秒数"
 
 msgid "Enable Lazy Mode"
 msgstr "启用懒狗模式"
@@ -191,7 +185,7 @@ msgid "QUIC maxConnReceiveWindow"
 msgstr "QUIC 最大的连接接收窗口大小"
 
 msgid "QUIC maxIdleTimeout(Unit:second)"
-msgstr "QUIC 最长空闲超时时间（单位：秒）"
+msgstr "QUIC 最长空闲超时秒数"
 
 msgid "The keep-alive period.(Unit:second)"
 msgstr "心跳包发送间隔秒数"
@@ -499,9 +493,6 @@ msgstr "Netflix IP 段更新 URL"
 msgid "Enable Process Deamon"
 msgstr "启用进程自动守护"
 
-msgid "DNS Server IP and Port"
-msgstr "DNS 服务器地址和端口"
-
 msgid "Resolve Dns Mode"
 msgstr "DNS 解析方式"
 
@@ -633,9 +624,6 @@ msgstr "每周六"
 
 msgid "Every Sunday"
 msgstr "每周日"
-
-msgid "Auto Update Server subscription, GFW list and CHN route"
-msgstr "自动更新服务器订阅、GFW 列表和中国大陆 IP 段"
 
 msgid "Subscribe URL"
 msgstr "订阅 URL"
@@ -829,9 +817,6 @@ msgstr "启用 SOCKS5 代理服务"
 msgid "Enable WAN Access"
 msgstr "允许从 WAN 访问"
 
-msgid "Redirect traffic to this network interface"
-msgstr "分流到这个网络接口"
-
 msgid "Netflix Node"
 msgstr "Netflix 分流服务器"
 
@@ -842,7 +827,7 @@ msgid "Netflix IP List"
 msgstr "Netflix 分流IP列表"
 
 msgid "External Proxy Mode"
-msgstr "分流服务器（前置）代理"
+msgstr "分流服务器前置代理"
 
 msgid "Server Type"
 msgstr "服务端类型"
@@ -883,14 +868,8 @@ msgstr "分片包长 (byte)"
 msgid "Fragment Interval"
 msgstr "分片间隔"
 
-msgid "Fragmentation interval (ms)"
-msgstr "分片间隔（ms）"
-
 msgid "Noise"
 msgstr "噪声"
-
-msgid "Click to the page"
-msgstr "点击前往"
 
 msgid "Xray Noise Packets"
 msgstr "Xray 噪声数据包"
@@ -1033,9 +1012,6 @@ msgstr "拥塞控制"
 msgid "Local addresses"
 msgstr "本地地址"
 
-msgid "Wireguard reserved bytes."
-msgstr "Wireguard 保留字节。"
-
 msgid "Private key"
 msgstr "私钥"
 
@@ -1044,9 +1020,6 @@ msgstr "节点公钥"
 
 msgid "Pre-shared key"
 msgstr "预共享密钥"
-
-msgid "Default value 0 indicatesno heartbeat."
-msgstr "默认为 0 表示无心跳。"
 
 msgid "allowedIPs(optional)"
 msgstr "允许的 IP"
@@ -1099,18 +1072,6 @@ msgstr "使用 QUIC 流的无损 UDP 中继"
 msgid "Congestion control algorithm"
 msgstr "拥塞控制算法"
 
-msgid "Heartbeat interval(second)"
-msgstr "保活心跳包发送间隔（单位：秒）"
-
-msgid "Timeout for establishing a connection to server(second)"
-msgstr "连接超时时间（单位：秒）"
-
-msgid "Garbage collection interval(second)"
-msgstr "UDP 数据包片残片清理间隔（单位：秒）"
-
-msgid "Garbage collection lifetime(second)"
-msgstr "UDP 数据包残片在服务器的保留时间（单位：秒）"
-
 msgid "Disable SNI"
 msgstr "关闭 SNI 服务器名称指示"
 
@@ -1127,46 +1088,10 @@ msgid "Dual-stack Listening Socket"
 msgstr "双栈 Socket 监听"
 
 msgid "Disable ChinaDNS-NG"
-msgstr "直通模式（禁用 ChinaDNS-NG）"
+msgstr "直通模式"
 
 msgid "Clear logs"
 msgstr "清空日志"
 
-msgid "Backup and Restore"
-msgstr "备份还原"
-
-msgid "Backup or Restore Client and Server Configurations."
-msgstr "备份或还原客户端及服务端配置。"
-
-msgid "Note: Restoring configurations across different versions may cause compatibility issues."
-msgstr "注意：不同版本间的配置恢复可能会导致兼容性问题。"
-
-msgid "Create Backup File"
-msgstr "创建备份文件"
-
-msgid "Restore Backup File"
-msgstr "恢复备份文件"
-
-msgid "DL Backup"
-msgstr "下载备份"
-
-msgid "RST Backup"
-msgstr "恢复备份"
-
-msgid "UL Restore"
-msgstr "上传恢复"
-
 msgid "CLOSE WIN"
 msgstr "关闭窗口"
-
-msgid "Restore to default configuration"
-msgstr "恢复默认配置"
-
-msgid "Do Reset"
-msgstr "执行重置"
-
-msgid "Do you want to restore the client to default settings?"
-msgstr "是否要恢复客户端默认配置？"
-
-msgid "Are you sure you want to restore the client to default settings?"
-msgstr "是否真的要恢复客户端默认配置？"
