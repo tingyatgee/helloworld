@@ -13,6 +13,12 @@ msgstr "下移"
 msgid "Switch Node"
 msgstr "切换"
 
+msgid "SSR Encrypt Method"
+msgstr "ssr 加密"
+
+msgid "SS Encrypt Method"
+msgstr "ss 加密"
+
 msgid "ShadowSocksR Client"
 msgstr "ShadowSocksR 客户端"
 
