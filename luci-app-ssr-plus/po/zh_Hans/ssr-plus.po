@@ -824,7 +824,7 @@ msgid "Local Servers"
 msgstr "本机服务端"
 
 msgid "Global SOCKS5 Proxy Server"
-msgstr "SOCKS5 代理服务端（全局）"
+msgstr "SOCKS5 代理服务端"
 
 msgid "Socks5 Auth Mode"
 msgstr "Socks5 认证方式"
