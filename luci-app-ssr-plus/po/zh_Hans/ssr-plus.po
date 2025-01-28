@@ -46,20 +46,11 @@ msgstr "全局设置"
 msgid "Global Server"
 msgstr "全局服务器"
 
-msgid "UDP Relay Server"
-msgstr "UDP 中继服务器"
-
 msgid "Same as Global Server"
 msgstr "与全局服务器相同"
 
-msgid "Servers Setting"
-msgstr "服务器配置"
-
 msgid "Alias(optional)"
 msgstr "备注"
-
-msgid "Onetime Authentication"
-msgstr "一次验证"
 
 msgid "Server Address"
 msgstr "服务器"
@@ -154,26 +145,8 @@ msgstr "shadowsocks rust"
 msgid "Vmess Protocol"
 msgstr "VMESS 协议"
 
-msgid "Shadowsocks password"
-msgstr "shadowsocks 密码"
-
-msgid "Lazy Start"
-msgstr "延迟启动"
-
 msgid "Access Control"
 msgstr "访问控制"
-
-msgid "Interfaces - WAN"
-msgstr "接口 - WAN"
-
-msgid "Bypassed IP List"
-msgstr "被忽略 IP 列表"
-
-msgid "Forwarded IP"
-msgstr "强制走代理 IP"
-
-msgid "Interfaces - LAN"
-msgstr "接口 - LAN"
 
 msgid "LAN Access Control"
 msgstr "内网客户端分流代理控制"
@@ -183,9 +156,6 @@ msgstr "仅允许列表内主机"
 
 msgid "Allow all except listed"
 msgstr "除列表外主机皆允许"
-
-msgid "LAN Host List"
-msgstr "内网主机列表"
 
 msgid "SSR Client"
 msgstr "客户端"
@@ -198,9 +168,6 @@ msgstr "启动服务端"
 
 msgid "Server Setting"
 msgstr "服务端配置"
-
-msgid "Enable Process Monitor"
-msgstr "启用进程监控"
 
 msgid "Edit ShadowSocksR Server"
 msgstr "编辑服务器配置"
@@ -226,9 +193,6 @@ msgstr "运行状态"
 msgid "Global Client"
 msgstr "TCP 透明代理"
 
-msgid "Global SSR Server"
-msgstr "SSR 服务端"
-
 msgid "Not Running"
 msgstr "未运行"
 
@@ -249,15 +213,6 @@ msgstr "全局模式"
 
 msgid "Oversea Mode"
 msgstr "海归模式"
-
-msgid "Normal Proxy"
-msgstr "正常代理"
-
-msgid "Bypassed Proxy"
-msgstr "不走代理"
-
-msgid "Forwarded Proxy"
-msgstr "强制走代理"
 
 msgid "UDP Relay"
 msgstr "UDP 中继"
