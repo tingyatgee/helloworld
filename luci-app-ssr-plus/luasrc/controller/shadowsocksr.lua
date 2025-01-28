@@ -143,20 +143,3 @@ end
 function clear_log()
 	luci.sys.call("echo '' > /var/log/ssrplus.log")
 end
-
-function create_backup()
-	local backup_files = {
-		"/etc/config/shadowsocksr",
-		"/etc/ssrplus/*"
-	}
-	local date = os.date("%Y-%m-%d-%H-%M-%S")
-	local tar_file = "/tmp/shadowsocksr-" .. date .. "-backup.tar.gz"
-	nixio.fs.remove(tar_file)
-	local cmd = "tar -czf " .. tar_file .. " " .. table.concat(backup_files, " ")
-	luci.sys.call(cmd)
-	luci.http.header("Content-Disposition", "attachment; filename=shadowsocksr-" .. date .. "-backup.tar.gz")
-	luci.http.header("X-Backup-Filename", "shadowsocksr-" .. date .. "-backup.tar.gz")
-	luci.http.prepare_content("application/octet-stream")
-	luci.http.write(nixio.fs.readfile(tar_file))
-	nixio.fs.remove(tar_file)
-end
