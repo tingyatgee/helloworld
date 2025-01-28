@@ -71,7 +71,7 @@ msgid "Onetime Authentication"
 msgstr "一次验证"
 
 msgid "Server Address"
-msgstr "服务器地址"
+msgstr "服务器"
 
 msgid "Server Port"
 msgstr "端口"
