@@ -4,12 +4,6 @@ msgstr "Content-Type: text/plain; charset=UTF-8\n"
 msgid "ShadowSocksR Plus+"
 msgstr "透明代理"
 
-msgid "Go Up"
-msgstr "上移"
-
-msgid " Go Dwon"
-msgstr "下移"
-
 msgid "Switch Node"
 msgstr "切换"
 
