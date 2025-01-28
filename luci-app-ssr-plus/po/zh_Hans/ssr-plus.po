@@ -614,10 +614,10 @@ msgid "Subscribe URL"
 msgstr "订阅 URL"
 
 msgid "Subscribe Filter Words"
-msgstr "订阅节点关键字过滤"
+msgstr "关键字过滤"
 
 msgid "Subscribe Save Words"
-msgstr "订阅节点关键字保留检查"
+msgstr "关键字保留检查"
 
 msgid "Update"
 msgstr "更新"
