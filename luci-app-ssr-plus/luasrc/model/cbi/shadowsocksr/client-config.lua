@@ -1050,7 +1050,7 @@ o.rmempty = true
 
 
 -- [[ Mux.Cool ]] --
-o = s:option(Flag, "mux", translate("Mux"), translate("Enable Mux.Cool"))
+o = s:option(Flag, "mux", translate("Mux"))
 o.rmempty = false
 o.default = false
 o:depends({type = "v2ray", v2ray_protocol = "vless", transport = "raw"})
