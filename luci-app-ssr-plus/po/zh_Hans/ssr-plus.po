@@ -356,7 +356,7 @@ msgid "UDP Relay"
 msgstr "UDP 中继"
 
 msgid "Restart ShadowSocksR Plus+"
-msgstr "重启 ShadowSocksR Plus+"
+msgstr "重启客户端"
 
 msgid "Restart Service"
 msgstr "重启服务"
