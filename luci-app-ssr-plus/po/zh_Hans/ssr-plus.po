@@ -298,8 +298,8 @@ msgstr "启用进程监控"
 msgid "Edit ShadowSocksR Server"
 msgstr "编辑服务器配置"
 
-msgid "Alias"
-msgstr "别名"
+msgid "Node"
+msgstr "节点"
 
 msgid "Server"
 msgstr "服务器"
