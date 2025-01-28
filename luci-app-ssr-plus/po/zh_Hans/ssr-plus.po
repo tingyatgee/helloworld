@@ -773,7 +773,7 @@ msgid "Update Subscribe List"
 msgstr "更新 URL 列表"
 
 msgid "Update All Subscribe Servers"
-msgstr "更新所有订阅服务器节点"
+msgstr "更新订阅服务器节点"
 
 msgid "Plugin"
 msgstr "插件"
