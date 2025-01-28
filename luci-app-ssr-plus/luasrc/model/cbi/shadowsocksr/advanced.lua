@@ -273,13 +273,15 @@ end
 o = s:option(Flag, "enabled", translate("Enable"))
 o.default = 1
 o.rmempty = false
+o.width = "8%"
 
 o = s:option(ListValue, "type", translate("Type"))
 o.default = "base64"
 o:value("rand", "rand")
 o:value("str", "str")
 o:value("base64", "base64")
-
+o.width = "16%"
+	
 o = s:option(Value, "domainStrategy", translate("Domain Strategy"))
 o.default = "UseIP"
 o:value("AsIs", "AsIs")
