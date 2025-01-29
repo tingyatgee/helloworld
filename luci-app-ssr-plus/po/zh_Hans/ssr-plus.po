@@ -569,7 +569,7 @@ msgid "SOCKS5 Proxy Server"
 msgstr "SOCKS5 代理"
 
 msgid "Global SOCKS5 Proxy Server"
-msgstr "SOCKS5 代理服务端"
+msgstr "SOCKS5 服务端"
 
 msgid "Socks5 Auth Mode"
 msgstr "Socks5 认证方式"
