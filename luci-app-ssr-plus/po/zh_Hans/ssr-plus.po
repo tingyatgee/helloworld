@@ -148,6 +148,9 @@ msgstr "仅允许列表内主机"
 msgid "Allow all except listed"
 msgstr "除列表外主机皆允许"
 
+msgid "LAN Host List"
+msgstr "内网主机列表"
+
 msgid "SSR Client"
 msgstr "客户端"
 
