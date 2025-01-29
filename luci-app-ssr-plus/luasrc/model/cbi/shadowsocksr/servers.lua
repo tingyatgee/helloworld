@@ -60,9 +60,6 @@ o = s:option(Flag, "switch", translate("Subscribe Default Auto-Switch"))
 o.rmempty = false
 o.default = "1"
 
-o = s:option(Flag, "proxy", translate("Through proxy update"))
-o.rmempty = false
-
 o = s:option(Button, "subscribe", translate("Update All Subscribe Servers"))
 o.rawhtml = true
 o.template = "shadowsocksr/subscribe"
