@@ -449,7 +449,7 @@ msgid "Game Mode UDP Relay"
 msgstr "UDP 中继模式"
 
 msgid "Server failsafe auto swith and custom update settings"
-msgstr "节点故障切换/广告屏蔽/数据库更新设置"
+msgstr "故障切换/数据库更新设置"
 
 msgid "Delete All Subscribe Servers"
 msgstr "删除订阅服务器节点"
