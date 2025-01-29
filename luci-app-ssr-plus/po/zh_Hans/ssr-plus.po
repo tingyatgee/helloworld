@@ -322,9 +322,6 @@ msgstr "在此处粘贴分享链接"
 msgid "Auto Update"
 msgstr "自动更新"
 
-msgid "Through proxy update"
-msgstr "通过代理更新"
-
 msgid "ShadowSocksR Plus+ Settings"
 msgstr "透明代理"
 
